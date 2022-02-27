@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>phone</title>
+</head>
+<body style="font-family: 'Roboto', sans-serif; margin: 0;">
+    <div style="background-color: #FBFBFD; width: 1440px; height: 903px;">
+ <img class="img" src="img/samsung.png" alt="phone" style="padding-top: 100px; padding-right: 165px; float: right;">
+<div class="animate__animated animate__backInLeft">
+<div style="width: 520px; padding-top: 160px; padding-left: 165px; padding-right: 98px; ">
+<h1 style="color: #091133; font-weight: 500; font-size: 36px; line-height: 48px; padding-bottom: 16px; margin: 0;">Design & Build Your Own Landing Pages</h1>
+<p style="color: #6F7CB2; font-size: 16px;  font-weight: 400; line-height: 26px;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus</p>
+<p style="color: #6F7CB2; font-size: 16px;  font-weight: 400; line-height: 26px; margin: 0;">mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p> 
+</div>
+</div>     
+
+<div class="animate__animated animate__backInRight" style="width: 540px; padding-top: 70px; padding-left: 165px; padding-right: 78px;">
+<img src="img/picture.png" alt="picture" style="padding-bottom: 14px; margin: 0">
+<h2 style="color: #091133; margin-top: 0; padding-bottom: 6px; font-weight: 500; font-size: 16px; line-height: 26px; margin: 0">Title Goes Here</h2>
+<p style="color: #5D6970; margin-top: 0; font-weight: 400; font-size: 12px; line-height: 18px; margin: 0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
+        </div>
+
+<div class="animate__animated animate__backInLeft" style="width: 540px; padding-top: 40px; padding-left: 165px; padding-right: 78px;">
+<img src="img/picture.png" alt="picture" style="padding-bottom: 14px; margin: 0">
+<h2 style="color: #091133; margin-top: 0; padding-bottom: 6px; font-weight: 500; font-size: 16px; line-height: 26px;margin: 0">Title Goes Here</h2>
+ <p style="color: #5D6970; margin-top: 0; font-weight: 400; font-size: 12px; line-height: 18px; margin: 0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
+</div>
+</div>
+ </div>
+ <script>
+    const wow = new WOW({
+boxClass: 'wow', /* класс, который необходим для работы wow.js */
+animateClass: 'animate__animated', /* класс, который будет автоматически добавляться анимируемым элементам при прокрутке страницы */
+offset: 30, /* по-умолчанию установлено значение 0, то есть как только при прокрутке страницы, элемент достигает низа окна браузера проигрываться анимация, в данном случае анимация начнется на 30px выше от низа окна браузера */
+mobile: true, /* если true, то на мобильных тоже будет анимация, если false, то на мобильных анимация отключается */
+live: true /* если true, то анимация будет работать даже на динамически добавляемых элементах, если false, то только на тех элементах, которые были на странице при ее загрузке */
+})
+wow.init(); /* Инициализация плагина с установленными выше свойствами */
+</script>
+</body>
+</html>

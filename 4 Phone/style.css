@@ -1,0 +1,11 @@
+@keyframes show{
+    0%{ opacity:0; }
+    100% { opacity:1; }
+   }
+
+body .img{
+    transition: 1s; 
+	animation: show 3s 1; 
+       animation-fill-mode: forwards; 
+
+}
